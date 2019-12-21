@@ -1,31 +1,12 @@
+email_promo-starbucks-happy-hour-drinks
+
+This is a clone of a Starbucks promotional email offering their 'happy hour mocha drink', breakfast sandwiches, Starbucks Rewards cards, and a WallStreet Journal subscription sale. It also has a link to a blog post about their hispanic employees sharing their stories of coffee, family, and celebrating their latinx heritage. This promotional email is charming, appealing, inviting, familial, and has bold colorful images.
+
+TECHNOLOGIES USED: html tables, html5, css3, responsive, webpack, web accessibility, GITHUB , lighthouse, NETLIFY . 
+
+DISCLAIMER: This corporation's "email clone" is for Demonstration Purposes Only. No infringements are intended against their corporate copyrights, trademarks, patents, intellectual properties, or any other proprietary assets.
+
 Github link: https://jerome-wilson-developer.github.io/email_promo-starbucks-happy-hour-drinks/
 
 Netlify link: https://starbucks-happy-hour-drinks.netlify.com/
 
-
-
-
-
-Starter-Kit-2018
-So I built this for all the new web developers... My Goal is to save you time from the bullsh*t of spending hours looking for ways to speed up your learning. Sometimes all we want to do is just code. (if you are coming from my youtube channel CodingPhase I will base all my tutorials from this starter kit)
-
-I broke it down in simple steps to get you going.
-
-Steps
-Download or Pull This Repo Top of this page you can see where it says clone or download
-
-Install Node https://nodejs.org/en/
-
-Download Atom https://atom.io/
-
-Install all the node packages On the root of this project run on your terminal (if you want you can do this with yarn but thats optional)
-
-npm install
-Update the node packages On the root of this project run on your terminal (if you want you can do this with yarn but thats optional)
-
-npm update
-Start the server
-
-npm run watch
-
-© 2019 GitHub, Inc.
