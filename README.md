@@ -1,4 +1,4 @@
-email_promo-starbucks-happy-hour-drinks
+# email_promo-starbucks-happy-hour-drinks
 
 This is a clone of a Starbucks promotional email offering their 'happy hour mocha drink', breakfast sandwiches, Starbucks Rewards cards, and a WallStreet Journal subscription sale. It also has a link to a blog post about their hispanic employees sharing their stories of coffee, family, and celebrating their latinx heritage. This promotional email is charming, appealing, inviting, familial, and has bold colorful images.
 
