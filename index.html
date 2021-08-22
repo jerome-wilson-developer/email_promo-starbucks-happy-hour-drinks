@@ -5,105 +5,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>STARBUCKS HAPPY HOUR</title>
+
+    <!-- This is a clone of a Starbucks promotional email offering their 'happy hour mocha drink', breakfast sandwiches, Starbucks Rewards cards, and a WallStreet Journal subscription sale, and a blog post. This promotional email is charming, appealing, familial, and has bold, engaging colorful images. -->
+
+
+
+
+
+
+
+              
     <style>
       /* Tablet View */
-    @media all and (min-width: 768px) and (max-width: 959px){
-      .main-container{
-        width:100%;
-      }      
+    @media all and (min-width: 481px) and (max-width: 959px){
+      .main-table-wrapper{
+        width:100% !important;
+      }
+      .main-email-container{
+        width:100% !important;
+      }
+      .disclaimer{        
+        background-color: yellow !important;
+        font-size: 1.0rem !important;
+        font-weight: 500;
+        max-width: 96.0% !important; 
+      }
     }
       /* Smartphone View */
-    @media all and (max-width: 767px){            
+    @media all and (min-width: 300px) and(max-width: 480px){
+      .main-table-wrapper{
+        width:100% !important;
+        background-color: #101010 !important;
+      }
+      .main-email-container{
+        width:100% !important;
+      }
       .disclaimer{
-        display: none;
-      }      
+        font-size: 1.0rem !important;
+        font-weight: 500;
+        max-width: 96.0% !important;  
+      }
+      .nav-buttons{
+        margin: 0;
+        padding: 0; 
+      }
     }     
 </style>
 </head>
 
 
 <body>
-    <!-- Start of Main-Container-Wrapper-100% -->  
-<table  class="section-0" id="Main-App-Container" 
-width="100%" cellspacing="0" cellpadding="0" border="0" 
-style="background-color:#ffffff;">
-<!-- begin disclaimer -->
+<!-- begin main table-wrapper @ 100% width -->
 <tr>
   <td>
-<table tabindex="-1" class="disclaimer" width="100%" align="center" border="0" 
-cellspacing="0" cellpadding="0" style="background-color:#eeeeee; 
-text-align:left; margin:0; padding:0;">
+    <table class="main-table-wrapper" align="center" width="100%" cellspacing="0" 
+    cellpadding="0" border="0" style="background:#eeeeee;">
+
+<!-- begin the main html email wrapper @ 600px width -->
 <tr>
-    <td style="width:30%; text-align:left; 
-    font-family:Arial, Helvetica, sans-serif; 
-    font-size:14px; color:#292929;
-    border:1px solid black; padding:20px 20px 10px 20px; 
-    vertical-align:auto;">
-        <span style="font-weight:600; 
-        font-size:.9rem; letter-spacing:1px;">
-              DISCLAIMER: 
-        </span>
-        <br/>
-        The "corporation clones" below are for Demonstration Purposes Only. No infringements are intended against any corporate copyrights, trademarks, intellectual properties, or other proprietary assets. All images are the property of its respective owners. Please contact me if there are any issues. Thank you!
-    </td>
-    <td style="width:40%; text-align:left; 
-    font-family:Arial, Helvetica, sans-serif; 
-    font-size:14px; color:#292929;
-    border:1px solid black; 
-    padding:20px 20px 10px 20px; vertical-align:auto;">
-        <span style="font-weight:600; 
-        font-size:.9rem; letter-spacing:1px;
-        text-decoration:underline;">README: "STARBUCKS HAPPY HOUR DRINKS"  
-      </span>
-      <br/>
-      This is a clone of a Starbucks promotional email offering their 'happy hour mocha drink', breakfast sandwiches, Starbucks Rewards cards, and a WallStreet Journal subscription sale, and a blog post. This promotional email is charming, appealing, familial, and has bold, engaging colorful images.
-    </td>
-    <td style="width:30%; text-align:left; 
-    font-family:Arial, Helvetica, sans-serif; 
-    font-size:14px; color:#292929; 
-    border:1px solid black; padding:20px 20px 10px 20px; 
-    vertical-align:auto;">
-        <span style="font-weight:600; 
-        font-size:.9rem; letter-spacing:1px;">
-              TECHNOLOGIES USED:
-        </span>
-        <br/>html tables, html5, css3, mobile responsive, npm, webpack, web accessibility, NVDA,
-              <a tabindex="-1" align="center" href="https://github.com/jerome-wilson-developer/email_promo-starbucks-happy-hour-drinks" target="_blank">
-                GITHUB
-              </a>, <a tabindex="-1" href="https://starbucks-happy-hour-drinks.netlify.com/" target="_blank">
-                NETLIFY</a>, chrome lighthouse audits, <a tabindex="-1" href="https://jerome-wilson-web-dev.com/">Resume-Portfolio-Blog</a>
-        <hr/>
-        <a align="center" style="padding:20px 2px 5px 2px;">
-          <img src="images/icon-html-table-png-128x128-black-8.png" 
-          width="70" height="50" 
-          alt="icon for html5 tables"/>
-        </a>
-        <a align="center" style="padding:20px 2px 5px 2px;">
-          <img src="images/icon-html5-png-128x128.png" 
-          width="50" height="50" 
-          alt="icon for html5"/>
-        </a>
-        <a align="center" style="padding:20px 2px 5px 2px;">
-          <img src="images/icon-css3-png-128x128.png" 
-          width="50" height="50" 
-          alt="icon for css3"/>
-        <a align="center" style="padding:20px 2px 5px 2px;">
-          <img src="images/mobile-responsive-3devices-4.jpg" 
-          width="70" height="50" 
-          alt="icon for mobile responsive"/>
-        </a>
-        </a>
-        <a align="center" style="padding:20px 2px 5px 2px;">
-          <img src="images/icon-wai-aria-accessibility-png-128x128.png" 
-          width="50" height="50" 
-          alt="icon for web accessibility"/>
-        </a>
-    </td>
-</tr>
-</table>
-    </td>
-</tr>
-<!-- end disclaimer -->
+    <td>
+      <table class="main-email-container" align="center" width="600" cellspacing="0" 
+      cellpadding="0" border="0" style="background:#cccccc;">
+
+      
+<!-- begin row for "header-section" -->
+<tr>
+  <td>
+      <!-- begin section for a README, a disclaimer, and a "technologies used" row -->
+      <table class="disclaimer" width="100%" align="center" border="0" 
+      cellspacing="0" cellpadding="0" style="text-align:left; padding:20px 5px 5px; 
+      border:10px solid #00ff00; border-style: inset; border-radius: 10px; 
+      background-color: white; max-width: 96.6%; margin: 15px 15px 15px 10px;">
+
+      <!-- begin add 2 nav buttons to the header -->
+        <tr>
+          <td style="width:100%; text-align:left; font-family:Arial, 
+          Helvetica, sans-serif; font-size:1.8rem; font-weight: 500; 
+          line-height: 1.0; letter-spacing: 1.0; color:#101010; 
+          padding:20px;">
+              <a role="link" href="https://jerome-wilson-web-dev.com/" class="nav-buttons"
+              style="background-color:#00ff00;
+              border:1px solid #101010; padding:10px 25px; 
+              color:#101010; border-radius:7px; font-weight: 500;
+              text-decoration:none; font-size:1.3rem;">
+              Back to Resume home page</a>       
+          </td>
+        </tr>
+        <tr>
+          <td style="width:100%; text-align:left; font-family:Arial, 
+          Helvetica, sans-serif; font-size:1.8rem; font-weight: 500; 
+          line-height: 1.0;letter-spacing: 1px; color:#101010; 
+          padding:20px;">
+              <a role="link" href="https://jerome-wilson-web-dev.com/public/portfolio/proj-email-promotional.html" 
+              class="nav-buttons" style="background-color:#00ff00;
+              border:1px solid #000000; padding:10px 25px; 
+              color:#101010; border-radius:7px; font-weight: 500;
+              text-decoration:none; font-size:1.3rem;">
+              Back to Promotional Emails home page</a>       
+          </td>
+        </tr>
+        <!-- end add 2 nav buttons to the header -->
+
+          <tr>
+            <td style="width:100%; text-align:left; font-family:Arial, 
+            Helvetica, sans-serif; font-size:1.2rem; font-weight: 500; 
+            line-height: 1.2; color:#101010; 
+            padding:10px;">
+                <span style="font-weight:600; font-size:1.1rem; 
+                letter-spacing:1px; text-decoration:underline;">
+                      README - WELCOME TO UDEMY COURSES:
+                </span>
+              <br/>
+              This is a clone of a Starbucks promotional email offering their 'happy hour mocha drink', breakfast sandwiches, Starbucks Rewards cards, and a WallStreet Journal subscription sale, and a blog post. This promotional email is charming, appealing, familial, and has bold, engaging colorful images.
+            </td>
+          </tr>
+
+          <tr>
+            <td style="width:100%; text-align:left; font-family:Arial, 
+            Helvetica, sans-serif; font-size:1.2rem; font-weight: 500; 
+            line-height: 1.2; color:#101010; 
+            padding:10px;">
+                <span style="font-weight:600; font-size:1.1rem; letter-spacing:1px; 
+                text-decoration:underline;">
+                      TECHNOLOGIES USED:
+                </span>
+              <br/>
+              html tables, html5, css3, mobile responsive, media query, npm, gulp, github, netlify, lighthouse, litmus, emailonacid, mailchimp, aria accessibility, etc. For further 
+              inspection, see <a href="https://github.com/jerome-wilson-developer/email_promo-starbucks-happy-hour-drinks"> 
+                Github</a> and <a href="https://starbucks-happy-hour-drinks.netlify.com/"> Netlify</a> links.
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="width:100%; text-align:left; font-family:Arial, 
+            Helvetica, sans-serif; font-size:1.2rem; font-weight: 500; 
+            line-height: 1.2; color:#101010; 
+            padding:10px;">
+                <span style="font-weight:600; font-size:1.1rem; letter-spacing:1px; 
+                text-decoration:underline;">
+                      DISCLAIMER: 
+                </span>
+                <br/>
+                This "corporate email" is for demo purposes only. No infringements are intended against any copyrights, intellectual properties, proprietary assets, etc. For any legal issues, contact me at: Jerome-Wilson-Developer@outlook.com, 404-604-8561. Thanks!
+            </td>
+          </tr>
+      </table>
+      <!-- end header-section for a README, a disclaimer, and a "technologies used" row -->
+
+
+
+
+
+
+
 <!-- Start of HTML-EMAIL-WRAPPER-600px -->
           <table class="container" width="600px" align="center" 
             cellspacing="0" cellpadding="0" border="0" 
